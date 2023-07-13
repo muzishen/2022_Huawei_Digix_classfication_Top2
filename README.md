@@ -42,7 +42,7 @@ python3 fusion.py 进行融合
 `  
 
 #### 致谢
-:smile: 感谢蒋鑫师弟的合作  
+:smile: 蒋鑫师弟  
 Click on the star  :star:, Thank you :heart:
 
 
