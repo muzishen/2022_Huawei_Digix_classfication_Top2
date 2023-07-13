@@ -27,7 +27,7 @@ pip install -r requirements.txt
 推理采用TTA 增强  
 损失函数采用BCEWithLogitsLoss  
 
-#### 训练方法：
+#### 训练方法
 `
 python3 main.py  --config_file './configs/convnext_base.yaml'      
 `  
