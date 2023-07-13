@@ -1,0 +1,16 @@
+MODEL: 
+  NAME: 'swin_base_patch4_window12_384'
+  PRETRAIN_PATH: '/opt/data/private/Pretrain/classfication/swin_base_patch4_window12_384_22kto1k.pth'
+
+INPUT:
+  SIZE_TRAIN: [1280, 768]
+  SIZE_TEST: [1280, 768]
+  PIXEL_MEAN: [0.76404387, 0.7610951, 0.722468]
+  PIXEL_STD: [0.27856505, 0.29630744, 0.2451125]
+SOLVER:
+  # BASE_LR: 1e-4
+  # MAX_LR: 1e-3
+  MAX_EPOCHS: 30
+  IMS_PER_BATCH: 32
+  SEED: 42
+OUTPUT_DIR: '/opt/data/private/Logs/classfication/digix/jx_swin_base'

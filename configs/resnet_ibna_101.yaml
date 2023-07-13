@@ -1,0 +1,16 @@
+MODEL: 
+  NAME: 'resnet_ibn_a_101'
+  PRETRAIN_PATH: '/opt/data/private/Pretrain/classfication/resnet101_ibn_a-59ea0ac6.pth'
+
+INPUT:
+  SIZE_TRAIN: [1280, 768]
+  SIZE_TEST: [1280, 768]
+  PIXEL_MEAN: [0.76404387, 0.7610951, 0.722468]
+  PIXEL_STD: [0.27856505, 0.29630744, 0.2451125]
+SOLVER:
+
+  MAX_LR: 0.02     #sgd0.01   adamw 4e-1
+  MAX_EPOCHS: 35
+  IMS_PER_BATCH: 32
+  SEED: 42
+OUTPUT_DIR: '/opt/data/private/Logs/classfication/digix/jx_ibna101_last1_lr0.02_lastalldata'
