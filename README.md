@@ -41,7 +41,7 @@ python3 test.py 依次得到5个csv文件
 python3 fusion.py 进行融合
 `  
 
-#### 致谢
+#### 合作伙伴
 :smile: 蒋鑫师弟  
 Click on the star  :star:, Thank you :heart:
 
